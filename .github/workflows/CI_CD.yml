@@ -21,7 +21,6 @@ jobs:
       - name: Run Unit testes
         run: |
           python -m unittest discover tests
-      - name: Deploy Locally
+      - name: Deploy (Simulated)
         run: |
-          echo "Startting application ..."
-          nohup python src/main.py &
+          echo "Deployment step - Here you can add real deployment commanads"
